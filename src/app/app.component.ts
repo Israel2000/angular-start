@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular-start';
+  title = 'Welcome to Angular-start';
+
+  //  interpolation and template expressions
+  itemImageUrl = '../assets/plant-pic.png';
+
 }
